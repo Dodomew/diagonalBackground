@@ -21,20 +21,13 @@ html, body {
   width: 200%;
   height: 100%;
   margin: auto;
-  position: absolute;
-  top: -55%;
-  left: -100%;
+  position: relative;
+  top: -100%;
   background-color: #7A9F35;
   display: flex;
   align-content: stretch;
   justify-content: space-around;
   z-index: 100;
-  /*
-  top: -60%; bij min-width: 768 en 1024; hoe hoger de viewport width, des te lager top% (e.g. -80%) kan zijn
-  left: -100%; bij min-width: 768 en 1024; 
-
-  resolutie galaxy s5 360 x 640 : top: -72% , left: 150% , width: 250%;
-  */
 
 }
 

@@ -8,6 +8,10 @@ window.onresize = window.onload = function()
 	console.log(w, h);
 
 	var siteRotation = document.querySelector(".rotation");
-	siteRotation.style.transform = 'rotate('+angleDeg+ 'deg)';
-	console.log(siteRotation);
+	/*siteRotation.style.transform = 'rotate('+angleDeg+ 'deg)';
+	siteRotation.style.transform = ' transform-origin: 50% 50%';
+	console.log(siteRotation);*/
+
+	Object.assign(siteRotation.style,{transformOrigin: '0% 0%', transform: 'rotate('+angleDeg+ 'deg)'});
+
 }
